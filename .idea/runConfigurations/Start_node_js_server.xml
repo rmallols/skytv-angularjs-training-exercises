@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Start node.js server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="backend/server.js" node-parameters="&quot;node_modules\supervisor\lib\cli-wrapper.js&quot; --exec &quot;C:\Program Files (x86)\nodejs\node.exe&quot; --no-restart-on exit" working-dir="$PROJECT_DIR$">
+    <RunnerSettings RunnerId="NodeJS.run" />
+    <ConfigurationWrapper RunnerId="NodeJS.run" />
+    <method />
+  </configuration>
+</component>

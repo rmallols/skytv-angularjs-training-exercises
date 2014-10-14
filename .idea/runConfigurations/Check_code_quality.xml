@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Check code quality" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="node_modules/grunt-cli/bin/grunt" application-parameters="runJshint" working-dir="$PROJECT_DIR$">
+    <RunnerSettings RunnerId="NodeJS.run" />
+    <ConfigurationWrapper RunnerId="NodeJS.run" />
+    <method />
+  </configuration>
+</component>
