@@ -7,7 +7,7 @@
             transclude: false,
             restrict: 'A',
             scope: true,
-            template: '<div class="helloWorld">{{helloWorldMessage}}</div>',
+            template: '<div class="helloWorld"><h2>{{helloWorldMessage}}</h2></div>',
             link: function link(scope) {
                 scope.helloWorldMessage = helloWorld.getMessage();
             }
