@@ -8,7 +8,7 @@
          * @returns {string} The hello world message
          */
         function getMessage() {
-            return 'Hello World!';
+            return 'Welcome to the AngularJs training home page!';
         }
 
         return  {

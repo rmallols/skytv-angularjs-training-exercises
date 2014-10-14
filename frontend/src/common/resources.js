@@ -24,10 +24,10 @@ var less;
     //Business logic src resources
     //Home
     getScript(srcPath + '/app/home/HomeCtrl.js');
-    getScript(srcPath + '/app/home/helloWorldDirective.js');
-    getScript(srcPath + '/app/home/helloWorldService.js');
-    //Details
-    getScript(srcPath + '/app/details/DetailsCtrl.js');
+    getScript(srcPath + '/app/home/helloWorld/helloWorldDirective.js');
+    getScript(srcPath + '/app/home/helloWorld/helloWorldService.js');
+    //Lessons
+    getScript(srcPath + '/app/lessons/lesson1/lesson1Ctrl.js');
 
     //Less vendor library (has to be loaded at the end of the stylesheet chain
     less = { env: "production" }; //Set production environment to avoid log messages

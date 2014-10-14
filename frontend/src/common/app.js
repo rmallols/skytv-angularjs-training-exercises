@@ -1,4 +1,4 @@
-var app = angular.module('starterProject', ['ui.router']);
+var app = angular.module('sATE', ['ui.router']);
 
 app.config(function($locationProvider, $stateProvider, $urlRouterProvider) {
 
@@ -6,18 +6,18 @@ app.config(function($locationProvider, $stateProvider, $urlRouterProvider) {
     $locationProvider.html5Mode(true);
 
     // For any unmatched url, redirect to the home page
-    $urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise("/home");
 
     // Now set up the states
     $stateProvider
         .state('home', {
-            url: "/",
+            url: "/home",
             templateUrl: "src/app/home/home.html",
             controller: 'HomeCtrl'
         })
-        .state('details', {
-            url: "/details",
-            templateUrl: "src/app/details/details.html",
-            controller: 'DetailsCtrl'
+        .state('lesson1', {
+            url: "/lesson1",
+            templateUrl: "src/app/lessons/lesson1/lesson1.html",
+            controller: 'Lesson1Ctrl'
         });
 });

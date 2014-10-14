@@ -2,7 +2,7 @@ describe('hello world service', function () {
 
     var helloWorldService;
 
-    beforeEach(module('starterProject'));
+    beforeEach(module('sATE'));
     beforeEach(inject(['$controller', '$rootScope', '$compile', 'helloWorld',
         function ($controller, $rootScope, $compile, helloWorld_) {
 
@@ -10,6 +10,6 @@ describe('hello world service', function () {
         }]));
 
     it('should attach a list of awesomeThings to the scope', function () {
-        expect(helloWorldService.getMessage()).toBe('Hello World!');
+        expect(helloWorldService.getMessage()).toBe('Welcome to the AngularJs training home page!');
     });
 });

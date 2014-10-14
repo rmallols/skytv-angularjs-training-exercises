@@ -1,18 +1,19 @@
 'use strict';
-var express = require('express'),
-    fs      = require('fs'),
-    app     = express(),
-    server  = require('http').createServer(app);
+var express     = require('express'),
+    fs          = require('fs'),
+    app         = express(),
+    server      = require('http').createServer(app),
+    validPaths  = ['/home', '/lesson1', '/lesson2'];
 
 app.use(express.bodyParser());
 app.use(express.cookieParser());
 app.use(express.session({ secret: "ch0pSuey" }));
 
 app.get('/', function (req, res) {
-    goToIndex(res);
+    res.redirect(validPaths[0]);
 });
 
-app.get('/details', function (req, res) {
+app.get(validPaths, function (req, res) {
     goToIndex(res);
 });
 

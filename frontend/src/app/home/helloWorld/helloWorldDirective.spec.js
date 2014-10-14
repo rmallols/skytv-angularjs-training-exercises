@@ -2,7 +2,7 @@ describe('hello world directive', function () {
 
     var helloWorldService, helloWorldDirectiveElm;
 
-    beforeEach(module('starterProject'));
+    beforeEach(module('sATE'));
     beforeEach(inject(['$controller', '$rootScope', '$compile', 'helloWorld',
         function ($controller, $rootScope, $compile, helloWorld_) {
             helloWorldService = helloWorld_;
