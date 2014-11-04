@@ -1,6 +1,6 @@
 var app = angular.module('sATE', ['ui.router']);
 
-app.config(function($locationProvider, $stateProvider, $urlRouterProvider) {
+app.config(function ($locationProvider, $stateProvider, $urlRouterProvider) {
 
     //Avoid using hashes on the URL, whenever the browser supports this feature
     $locationProvider.html5Mode(true);
@@ -24,5 +24,10 @@ app.config(function($locationProvider, $stateProvider, $urlRouterProvider) {
             url: "/lesson2",
             templateUrl: "src/app/lessons/lesson2/lesson2.html",
             controller: 'Lesson2Ctrl'
+        })
+        .state('lesson3', {
+            url: "/lesson3",
+            templateUrl: "src/app/lessons/lesson3/lesson3.html",
+            controller: 'Lesson3Ctrl'
         });
 });

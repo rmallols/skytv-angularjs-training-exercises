@@ -29,6 +29,7 @@ var less;
     //Lessons
     getScript(srcPath + '/app/lessons/lesson1/lesson1Ctrl.js');
     getScript(srcPath + '/app/lessons/lesson2/lesson2Ctrl.js');
+    getScript(srcPath + '/app/lessons/lesson3/lesson3Ctrl.js');
 
     //Less vendor library (has to be loaded at the end of the stylesheet chain
     less = { env: "production" }; //Set production environment to avoid log messages
