@@ -3,7 +3,7 @@ var express = require('express'),
     fs = require('fs'),
     app = express(),
     server = require('http').createServer(app),
-    validPaths = ['/home', '/lesson1', '/lesson2', '/lesson3'];
+    validPaths = ['/home', '/lesson1', '/lesson2', '/lesson3', '/lesson4'];
 
 app.use(express.bodyParser());
 app.use(express.cookieParser());

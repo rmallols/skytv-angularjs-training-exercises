@@ -29,5 +29,10 @@ app.config(function ($locationProvider, $stateProvider, $urlRouterProvider) {
             url: "/lesson3",
             templateUrl: "src/app/lessons/lesson3/lesson3.html",
             controller: 'Lesson3Ctrl'
+        })
+        .state('lesson4', {
+            url: "/lesson4",
+            templateUrl: "src/app/lessons/lesson4/lesson4.html",
+            controller: 'Lesson4Ctrl'
         });
 });
